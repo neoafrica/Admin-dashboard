@@ -1,0 +1,112 @@
+/* TwitterThreadPost.css */
+
+.thread-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .thread-heading {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+  
+  .thread-card {
+    background-color: #f1f1f1;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+  }
+  
+  .thread-textarea {
+    width: 100%;
+    min-height: 60px;
+    resize: vertical;
+    padding: 8px;
+  }
+  
+  .image-preview-container {
+    margin-top: 10px;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .remove-btn {
+    margin-top: 6px;
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .word-count {
+    text-align: right;
+    margin-top: 8px;
+  }
+  
+  .word-count.normal {
+    color: gray;
+  }
+  
+  .word-count.warning {
+    color: orange;
+  }
+  
+  .word-count.danger {
+    color: red;
+  }
+
+  .file-label {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .file-label:hover {
+    background-color: #0056b3;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  .post-thread-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 16px;
+  }
+  
+  .post-thread-btn:disabled {
+    background-color: #94d3a2;
+    cursor: not-allowed;
+  }
+  
+  .post-thread-btn:hover:not(:disabled) {
+    background-color: #218838;
+  }
+    

@@ -1,0 +1,126 @@
+.postcontainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .postcategory {
+    background-color: #028704;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .postcategory:hover {
+    background-color: #e0e0e0;
+  }
+
+  .active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .mainContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 100vh; */
+    padding: 1rem;
+  }
+  .post-content {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .category-content {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+  /* .mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .postcontainer {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  } */
+
+  /* .postcontaine {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0; 
+    background-color: white;
+    z-index: 10;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  } */
+  
+  .search-bar-container {
+    margin-bottom: 1rem;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .search-bar:focus {
+    border-color: #1989b9;
+    outline: none;
+  }
+  
+  .scrollable-post-grid {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  /* my styles */
+  .postcategory {
+    background-color: #028704;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .postcategory:hover {
+    background-color: #e0e0e0;
+  }
+
+  .active {
+    background-color: #007bff;
+    color: white;
+  }
+  
